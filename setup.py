@@ -9,6 +9,7 @@ setup(
     packages=find_packages(include=['notebook']),
     url='https://github.com/Ricyteach/polygonselector',
     license='MIT',
+    include_package_data=True,
     long_description=readme,
     author='Ricky L Teachey Jr',
     author_email='ricky@teachey.org',
