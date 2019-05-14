@@ -1,3 +1,3 @@
 from pathlib import Path
 
-polygonselector_path = Path(__file__)/'notebooks'/'PolygonSelector.ipynb'
+nb_path = Path(__file__).parent/'notebooks'/'PolygonSelector.ipynb'
