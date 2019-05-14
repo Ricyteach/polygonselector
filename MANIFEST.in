@@ -1,1 +1,1 @@
-recursive-include  polygonselector/notebooks/*
+recursive-include  polygonselector/notebooks *
