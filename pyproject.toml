@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "polygonselector"
+author = "Rick Teachey"
+author-email = "ricky@teachey.org"
+home-page = "https://github.com/Ricyteach/polygonselector"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.md"

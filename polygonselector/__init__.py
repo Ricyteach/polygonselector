@@ -1,3 +1,3 @@
-from pathlib import Path
+"""A custom plotly tool for graphically selecting shapely polygons."""
 
-nb_path = Path(__file__).parent/'notebooks'/'PolygonSelector.ipynb'
+__version__ = "0.1"
