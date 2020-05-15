@@ -9,3 +9,12 @@ author-email = "ricky@teachey.org"
 home-page = "https://github.com/Ricyteach/polygonselector"
 classifiers = ["License :: OSI Approved :: MIT License"]
 description-file = "README.md"
+requires = [
+    "dxf2shapely @ git+git://github.com/Ricyteach/dxf2shapely"
+]
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest",
+    "pytest-runner",
+]
